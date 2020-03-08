@@ -1,5 +1,9 @@
 <div class="wd-status-tip">
 	<image class="wd-status-tip__image" src="./img/default-{{type}}.svg"></image>
+<<<<<<< HEAD
 	<view class="wd-status-tip__text">{{text}}</view>
+=======
+	<view jd:if="{{ tip }}" class="wd-status-tip__text">{{tip}}</view>
+>>>>>>> feat(statusTip): add new component
   <slot></slot>
 </div>
